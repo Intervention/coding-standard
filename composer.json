@@ -1,0 +1,24 @@
+{
+    "name": "intervention/coding-standard",
+    "description": "Coding Standard for Intervention PHP projects",
+    "homepage": "https://intervention.io",
+    "keywords": [],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Oliver Vogel",
+            "email": "oliver@intervention.io",
+            "homepage": "https://intervention.io"
+        }
+    ],
+    "require": {
+        "php": "^8.3",
+        "squizlabs/php_codesniffer": "^4",
+        "slevomat/coding-standard": "~8.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    }
+}
