@@ -8,6 +8,8 @@
         <type>error</type>
     </rule>
 
+    <rule ref="Squiz.Classes.ClassFileName"/>
+
     <rule ref="PEAR.Commenting.InlineComment"/>
 
     <rule ref="Generic.Arrays.ArrayIndent"/>
@@ -82,14 +84,6 @@
         </properties>
     </rule>
     <rule ref="SlevomatCodingStandard.Commenting.UselessInheritDocComment"/>
-    <rule ref="SlevomatCodingStandard.Files.TypeNameMatchesFileName">
-        <properties>
-            <property name="rootNamespaces" type="array">
-                <element key="src" value="Intervention\Image"/>
-                <element key="tests" value="Intervention\Image\Tests"/>
-            </property>
-        </properties>
-    </rule>
     <rule ref="SlevomatCodingStandard.Functions.RequireTrailingCommaInDeclaration"/>
     <rule ref="SlevomatCodingStandard.Functions.RequireTrailingCommaInCall"/>
     <rule ref="SlevomatCodingStandard.Namespaces.DisallowGroupUse"/>
