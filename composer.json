@@ -2,6 +2,7 @@
     "name": "intervention/coding-standard",
     "description": "Coding Standard for Intervention PHP projects",
     "homepage": "https://intervention.io",
+    "type": "phpcodesniffer-standard",
     "keywords": [],
     "license": "MIT",
     "authors": [
